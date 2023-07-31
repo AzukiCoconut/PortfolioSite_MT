@@ -3,13 +3,16 @@
     padding: 0;
 }
 
+html {
+    box-sizing: border-box;
+}
 body {
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
+    background-color: blueviolet;
+    color: white;
     height: 60px;
     width: 100%;
     display: inline;
@@ -19,35 +22,33 @@ header {
 
 nav {
     background-color: blueviolet;
-    width: 100px;
     position: fixed;
     width: 100vh;
-    height: 68px;
     bottom: 0;
-    right: 4em;
+    right: 68px;
+    height: 68px;
     transform: rotate(90deg);
     transform-origin: 100% 100%;
     z-index: 1;
-    text-align: left;
+    text-align: center;
 }
+
 ul {
-    list-style: none;
-    margin: 20px;
-    padding: 0;
-    text-align: left;
-    white-space: nowrap; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 20px 0;
+
 }
 
 li {
     font-size: 125%;
-    display: inline-block;
-    margin: 0 5em;
+    }
 
-
-}
 a {
     text-decoration: none;
-    color: black
+    color: white;
 }
 h1 {
     display: inline;
