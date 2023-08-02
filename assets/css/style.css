@@ -49,6 +49,10 @@ nav ul li a {
     color: white;
 }
 
+nav ul li a:hover{
+    border-bottom: 3px solid white;
+}
+
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -71,31 +75,28 @@ img {
     width: 50%;
     height: auto;
 }
- p {
+
+p {
     font-size: 1.6em;
     line-height: 1.5em;
     text-align: justify;
-    padding: 30px;
- }
+    padding: 0 30px;
+}
 
-#about {
+section {
     max-width: 100vw;
     display: flex;
     flex-direction: column;
+}
+#about {
     background-color: bisque;
 }
 
 #work {
-    max-width: 100vw;
-    display: flex;
-    flex-direction: column;
     background-color: aliceblue;
 }
 
 #contact{
-    max-width: 100vw;
-    display: flex;
-    flex-direction: column;
     background-color: antiquewhite;
 }
 
@@ -126,19 +127,20 @@ img {
 #work .section-content .img-lg img {
     width: 100%;
     height: auto;
+    margin: 0;
 }
 
 #work .section-content .img-reg {
     max-width: 50vw;
     padding: 1rem;
     margin: 15px 15px 15px 0;
-    border: 1px solid black;
     position: relative;
 }
 
 #work .section-content .img-reg img {
     width: 100%;
     height: auto;
+    margin: 0;
 }
 
 #work .section-content .img-lg .overlay,
@@ -164,6 +166,7 @@ img {
 
 #contact .section-content p {
     font-size: 2rem;
+    border-bottom: 3px solid blueviolet;
     padding: 0;
 }
 #contact .section-content .socialmedia {
@@ -177,10 +180,18 @@ img {
     font-size: 4rem;
     line-height: 1.5rem;
     margin: 1.2rem;
-    color: black;
+    color: blueviolet;
+}
+
+#contact .section-content .socialmedia i:hover {
+    color: white;
 }
 a {
     text-decoration: none;
+}
+
+a:hover {
+    background-color: blueviolet;
 }
 .icon {
     color: white;
@@ -193,17 +204,86 @@ a {
     text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
+    header {
+        text-align: left;
+    }
+    
     nav {
         position: fixed;
         width: 100vh;
         bottom: 0;
-        right: 68px;
-        height: 68px;
+        top: unset;
+        left: unset;
+        right: 50px;
+        height: 50px;
         transform: rotate(90deg);
         transform-origin: 100% 100%;
         z-index: 1;
-        text-align: center;
-                
+        text-align: center;      
     }
+
+    h1 {
+        font-size: 4rem;
+
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    img {
+        width: 15%;
+        margin: 20px;
+    }
+    section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+
+    .section-header {
+        min-width: 15vw;
+        text-align: right;
+        border-right: 8px solid blueviolet;
+    }
+
+    .section-header h2 {
+        border: unset;
+    }
+
+    .section-content {
+        max-width: 80vw;
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;  
+        margin-left: 15px;
+        align-items: flex-end;
+    }   
+    #about .section-content {
+        flex-wrap: nowrap;
+    }
+    #work .section-content .img-reg {
+        flex: 1 0 30%;
+        max-width: unset;
+        padding: unset;
+        margin: 0px 15px 15px 0;
+        position: relative;
+    }
+    #work .section-content .img-lg {
+        flex: 3 1 50%;
+        max-width: unset;
+        padding: unset;
+        margin: 0 15px 15px 0;
+        position: relative;
+    }
+
+
+    #contact .section-content {
+        align-items: center;
+    }
+    #contact .section-content p {
+        font-size: 2rem;
+        margin-right: 4rem;
+    }
+   
 }
