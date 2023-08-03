@@ -30,7 +30,53 @@ I learned quite a bit from this implementation.
   *  I learned how to implement an overlay as a hover affect incorporating unique icons. 
 
 ## Usage
-Below is a screenshot of the completed website.
-=======
+Below is a screenshot of the completed site.
+![Screenshot of the completed Portfolio Site for Matthew Tingley.](/assets/images/PortfolioWebsiteScreenshot.png)
 
-Portfolio site to showcase the work of Matthew Tingley
+Link to the deployed website is here: https://azukicoconut.github.io/PortfolioSite_MT/
+
+## Credits
+In the creation of this website I used the following resources:
+ - w3schools
+   * CSS Flexbox - https://www.w3schools.com/css/css3_flexbox.asp
+   * CSS Margins - https://www.w3schools.com/css/css_margin.asp
+   * CSS Padding - https://www.w3schools.com/css/css_padding.asp
+   * CSS Positioning - https://www.w3schools.com/css/css_positioning.asp
+   * CSS Style Images - https://www.w3schools.com/css/css3_images.asp
+   * CSS Icons - https://www.w3schools.com/css/css_icons.asp
+ - CSS Tricks
+   * CSS Flexbox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+   * Image Overlay Title - https://www.w3schools.com/howto/howto_css_image_overlay_title.asp
+ - Vertical Right Side Navigation Bar with 90Ddeg rotated Text - https://codepen.io/lenzfliker/pen/MWwyEqx
+ - CSS 2D Transforms - https://www.w3schools.com/css/css3_2dtransforms.asp
+ - transform-origin - https://www.w3schools.com/cssref/css3_pr_transform-origin.php
+
+Site inspiration
+Studio Bagaz' - https://www.studiobgz.com/
+
+## License
+
+MIT License
+
+Copyright (c) 2023 AzukiCoconut
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
