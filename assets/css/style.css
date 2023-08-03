@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    width: 100vw;
+    width: 97vw;
     background-color: bisque;
     font-family: "Montserrat", sans-serif;
 }
@@ -27,7 +27,7 @@ header {
 nav {
     position: fixed;
     background-color: blueviolet;
-    top: 5vh;
+    top: 7vh;
     left: 0;
     width: 100vw;
     height: 4em;
@@ -64,10 +64,11 @@ h2 {
     padding: 20px;
 }
 main {
-    width: 100vw;
+    width: 97vw;
     display: flex;
     flex-direction: column;
-    padding-top: 10vh;
+    margin: 0;
+    padding-top: 11vh;
     background-color: bisque;
 }
 
@@ -169,6 +170,15 @@ section {
     border-bottom: 3px solid blueviolet;
     padding: 0;
 }
+
+#contact .section-content a {
+    color: black;
+}
+
+#contact .section-content a:hover{
+    color: white;
+}
+
 #contact .section-content .socialmedia {
     display: flex;
     flex-direction: row;
@@ -189,7 +199,6 @@ section {
 a {
     text-decoration: none;
 }
-
 a:hover {
     background-color: blueviolet;
 }
@@ -204,7 +213,7 @@ a:hover {
     text-align: center;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
     header {
         text-align: left;
     }
@@ -229,11 +238,11 @@ a:hover {
     }
 
     h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     img {
-        width: 15%;
-        margin: 20px;
+        width: 30%;
+        margin: unset;
     }
     section {
         flex-direction: row;
@@ -242,25 +251,30 @@ a:hover {
     }
 
     .section-header {
-        min-width: 15vw;
+        width: 15vw;
         text-align: right;
         border-right: 8px solid blueviolet;
     }
 
     .section-header h2 {
+        padding: 10px;
         border: unset;
     }
 
     .section-content {
-        max-width: 80vw;
+        width: 75vw;
         display: flex;
         flex-direction: row; 
         flex-wrap: wrap;  
         margin-left: 15px;
-        align-items: flex-end;
+        align-items: center;
     }   
     #about .section-content {
         flex-wrap: nowrap;
+    }
+
+    #work .section-content {
+        align-items: flex-end;
     }
     #work .section-content .img-reg {
         flex: 1 0 30%;
@@ -277,7 +291,6 @@ a:hover {
         position: relative;
     }
 
-
     #contact .section-content {
         align-items: center;
     }
@@ -286,4 +299,16 @@ a:hover {
         margin-right: 4rem;
     }
    
+}
+
+@media screen and (min-width: 1020px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    h2 {
+        font-size: 3rem;
+    }
 }
