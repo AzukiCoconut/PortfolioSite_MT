@@ -1,4 +1,5 @@
 # PortfolioSite_MT
+
 A site to showcase the work of Matthew Tingley
 
 ## Description
@@ -30,3 +31,6 @@ I learned quite a bit from this implementation.
 
 ## Usage
 Below is a screenshot of the completed website.
+=======
+
+Portfolio site to showcase the work of Matthew Tingley
