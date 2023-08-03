@@ -171,6 +171,14 @@ section {
     margin: 0;
 }
 
+#work .section-content .img-lg .worktitle,
+#work .section-content .img-reg .worktitle {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: blueviolet;
+    color: white;
+}
 /* Establish the overlay for when someone hovers over an image in the work section */
 #work .section-content .img-lg .overlay,
 #work .section-content .img-reg .overlay
